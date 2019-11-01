@@ -238,49 +238,49 @@
 
 * `GET /api/v1/genres/`
 
-  ![genre_index](./images/genre_index.jpg)
+  ![genre_index](./images/genre_index.JPG)
 
 * `GET /api/v1/genres/{genre_pk}/`
 
   * 올바른 genre_pk로 접근하였을 때
 
-  ![genre_detail](./images/genre_detail.jpg)
+  ![genre_detail](./images/genre_detail.JPG)
 
   * 존재하지 않는 genre_pk일 때
 
-    ![genre_detail](./images/genre_detail_404.jpg)
+    ![genre_detail](./images/genre_detail_404.JPG)
 
 * `GET /api/v1/movies/`
 
-  ![movie_index](./images/movie_index.jpg)
+  ![movie_index](./images/movie_index.JPG)
 
 * `GET /api/v1/movies/{movie_pk}/`
 
-  ![movie_detail](./images/movie_detail.jpg)
+  ![movie_detail](./images/movie_detail.JPG)
 
 * `POST /api/v1/movies/{movie_pk}/reviews/`
 
   * GET 방법이 아닌 POST, PUT, DELETE 방법은 `postman`툴을 사용하여 확인하였습니다.
   * [postman 링크](https://www.getpostman.com/)
 
-  ![review_create](./images/review_create.jpg)
+  ![review_create](./images/review_create.JPG)
 
   * admin 페이지에서 review가 생성된 것을 확인할 수 있습니다.
 
-  ![review_admin](./images/review_create_admin.jpg)
+  ![review_admin](./images/review_create_admin.JPG)
 
 * `PUT /api/1/reviews/{review_pk}/`
 
-  ![review_update](./images/review_update.jpg)
+  ![review_update](./images/review_update.JPG)
 
   * admin 페이지에서 review가 수정된 것을 확인할 수 있습니다.
 
-  ![review_update](./images/review_update_admin.jpg)
+  ![review_update](./images/review_update_admin.JPG)
 
 * `DELETE /api/v1/reviews/{review_pk}/`
 
-  ![review_delete](./images/review_delete.jpg)
+  ![review_delete](./images/review_delete.JPG)
 
   * admin 페이지를 통해 review가 삭제 된 것을 확인할 수 있습니다.
 
-  ![review_delete_admin](./images/review_delete_admin.jpg)
+  ![review_delete_admin](./images/review_delete_admin.JPG)
